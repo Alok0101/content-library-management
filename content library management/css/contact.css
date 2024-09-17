@@ -1,0 +1,123 @@
+/* Contact Us Page Styles */
+.contact-section {
+    padding: 50px 20px;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.contact-details {
+    flex: 1;
+    max-width: 500px;
+    margin: 20px;
+}
+
+.contact-details h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-details p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-link {
+    display: inline-block;
+    color: #1e90ff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    flex: 1;
+    max-width: 600px;
+    margin: 20px;
+    text-align: left;
+}
+
+.contact-form h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+/* Contact Map Styles */
+.contact-map {
+    margin-top: 50px;
+}
+
+.contact-map h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-map iframe {
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Ensuring responsiveness */
+@media (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+    }
+
+    .contact-details, .contact-form {
+        max-width: 100%;
+    }
+}

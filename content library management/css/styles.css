@@ -1,0 +1,253 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 10px 0;
+}
+
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: #f0f0f0;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f0f0f0;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+/* Featured Content */
+.featured {
+    padding: 50px 20px;
+    background-color: #1e1e1e;
+}
+
+.featured h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.featured-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.content-card {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 300px;
+    text-align: center;
+    margin: 15px;
+}
+
+.content-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.content-card h3 {
+    font-size: 1.5em;
+    margin: 15px 0 10px;
+}
+
+.content-card p {
+    font-size: 1em;
+}
+
+.read-more, .watch-video {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f0f0f0;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover, .watch-video:hover {
+    background-color: #555;
+}
+
+/* About Preview */
+.about-preview {
+    padding: 50px 20px;
+    background-color: #1e1e1e;
+    text-align: center;
+}
+
+.about-preview h2 {
+    margin-bottom: 20px;
+}
+
+.about-preview p {
+    font-size: 1.2em;
+}
+
+.subscribe {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #2c2c2c;
+}
+
+.subscribe h2 {
+    margin-bottom: 20px;
+}
+
+.subscribe p {
+    font-size: 1.2em;
+}
+
+.subscribe form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.subscribe input {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    margin-right: 10px;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribe button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #fcfcfc;
+    text-align: center;
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+}
+/* About Page Styles */
+.about-section {
+    padding: 50px 20px;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.about-photo {
+    flex: 1;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.about-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.about-details {
+    flex: 2;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.about-details h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-details h2 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.about-details p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.social-link {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
+
+/* Ensuring responsiveness */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-photo {
+        max-width: 80%;
+    }
+
+    .about-details {
+        max-width: 100%;
+    }
+}
+a{
+    text-decoration: none;
+    color: white;
+}
